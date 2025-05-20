@@ -223,7 +223,7 @@ font-weight: 500;
 
 /* service style start */
 #service{
-    /* padding: 80px 0; */
+     padding: 80px 0;
     
 
 }
@@ -304,7 +304,7 @@ font-weight: 500;
 /* contact style start */
 #contactPart{
     height: 778px;
-    background: url("/img/backgroundOne.png");
+    background: url("../img/backgroundOne.png");
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
@@ -356,7 +356,76 @@ font-weight: 500;
 
 
 
-/* header style start */
-/* header style end */
+/* projects  style start */
+#projectPart{
+     
+}
+.projectTextFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.projectText h4{
+       color: #5E3BEE;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.projectText h3{
+   font-size: 44px;
+   font-weight: 600;
+   line-height: 56px;
+   color: #000000;
+   width: 360px;
+}
+.projectPara p{
+    width: 526px;
+    color: #121212;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.projectFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.projectItem{
+    width: 583px;
+    height: 532px;
+    border-radius: 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.projectItemImg img{
+    height: 389px;
+
+}
+.projectItemText{
+    padding: 44px 40px;
+    height: 143px;
+}
+.projectItemText h4{
+      font-size: 20px;
+    font-weight: 500;
+    
+    color: #000000;
+
+}
+.projectItemText h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    opacity: .5;
+    line-height: 32px;
+    margin-top: 15px;
+  
+}
+/* projects  style end */
+
+
 /* header style start */
 /* header style end */
