@@ -136,25 +136,39 @@ font-weight: 500;
     justify-content: space-between;
     align-items: center;
 }
+.project{
+    width: 272px;
+}
 
 .project h3{
     font-size: 48px;
     font-weight: 600;
     line-height: 56px;
     color: #000000;
+    text-align: center;
 }
+
 .project h4{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     color: #121212;
     opacity: 0.7;
+    
+    text-align: center;
+}
+.award{
+    width: 272px;
+    
 }
 .award h3{
     font-size: 48px;
     font-weight: 600;
     line-height: 56px;
     color: #000000;
+    margin-left: 35px;
+    text-align: center;
+    margin-left: 5px;
 }
 .award h4{
     font-size: 16px;
@@ -162,12 +176,18 @@ font-weight: 500;
     line-height: 24px;
     color: #121212;
     opacity: 0.7;
+    text-align: center;
+    
+}
+.client{
+    width: 272px;
 }
 .client h3{
     font-size: 48px;
     font-weight: 600;
     line-height: 56px;
     color: #000000;
+    text-align: center;
 }
 .client h4{
     font-size: 16px;
@@ -176,19 +196,26 @@ font-weight: 500;
     color: #121212;
     opacity: 0.7;
     padding-right: 5px;
+    text-align: center;
+}
+.experience{
+    width: 272px;
 }
 .experience h3{
      font-size: 48px;
     font-weight: 600;
     line-height: 56px;
-    color: #000000;}
+    color: #000000;
+    text-align: center;
+}
 .experience h4{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     color: #121212;
     opacity: 0.7;
-    padding-right: 5px;
+   
+    text-align: center;
 }
 /* achieveMent style end */
 
@@ -270,6 +297,61 @@ font-weight: 500;
     text-align: center;
 }
 /* service style end */
+
+
+
+
+/* contact style start */
+#contactPart{
+    height: 778px;
+    background: url("/img/backgroundOne.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.contactText{
+    padding: 105px 0;
+}
+.contactText h4{
+    color: #5E3BEE;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.contactText h2{
+     font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    color: #333333;
+    width: 479px;
+    padding: 41px 0;
+}
+.contactText p{
+    width: 584px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #333333;
+    padding-bottom: 38px;
+}
+/* contact style end */
+
+
+
+
+
+/* partner Company style start */
+#partnerCompany{
+    padding: 100px 0;
+}
+.partnerCompanyList{
+   display: flex;
+   justify-content: space-between;
+}
+/* partner Company style end */
+
+
+
 
 
 
